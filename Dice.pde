@@ -32,9 +32,9 @@ void draw()
    noLoop();
   }
   System.out.println(totalDots);
-  fill(255);
-  text("TOTAL:",250,20);
-  text(totalDots,250,30);
+  fill(255,0,0);
+  text("TOTAL:",250,15);
+  text(totalDots,250,20);
 }
 void mousePressed()
 {
