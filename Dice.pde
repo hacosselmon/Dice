@@ -32,7 +32,8 @@ void draw()
    noLoop();
   }
   System.out.println(totalDots);
-  fill(255);
+  fill(255, 255, 255);
+  strokeWeight(2);
   text("TOTAL:",250,15);
   text(totalDots,250,25);
 }
