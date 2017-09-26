@@ -33,7 +33,7 @@ void draw()
   }
   fill(255);
   text("TOTAL:",250,15);
-  text(totalDots,250,20);
+  text(totalDots,250,25);
 }
 void mousePressed()
 {
